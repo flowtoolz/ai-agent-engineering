@@ -1,0 +1,26 @@
+# Agents: Topic Brainstorm
+
+- key characteristics: autonomy, adaptability, and decision-making
+- Differences between agents and traditional static LLMs
+- use cases
+  - use case categories (assistant, automation, data processor ...)
+  - typical use case examples
+  - domain-specific examples, like in healthcare, finance, education ...
+- multi-agent systems, multi-agent collaboration (architectures, communication protocols, practical examples ...)
+- Architecture Patterns for Agent Systems
+- Implementation Frameworks: LangChain, LlamaIndex, AutoGPT, and others
+- Deployment essentials: scalability, latency, and cost management
+- self-correction (evaluation during orchestrated flows)
+- Evaluation
+- Building an Agent: A Hands-On Example
+- The Future of Agent Engineering
+- Business models and monetization strategies
+- Data Privacy (compliance with laws like GDPR or HIPAA)
+- Data Propriety (what data can I use, how can I obtain data, what data can I use for context/finetuning/training ...)
+- Human-Agent Interaction and UX
+  - transparency and trust via explainability and interpretability (decision logs, interpretable models ...)
+- process and life cycle: ideation, development, testing deployment, maintenance
+- Regulatory and Legal Challenges (liability, accountability, compliance with laws like the EU AI Act)
+- Scalability and Performance (scaling strategies, performance optimization, cost management ...)
+- Multimodal Agents: text, image, audio, speech, video
+- Deployment strategies: cloud, edge, on-device, model compression, local embedding generation
