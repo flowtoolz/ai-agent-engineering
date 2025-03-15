@@ -38,6 +38,10 @@ LangChain is a framework for building AI applications that can use tools, retain
 - Agent-tool interaction
 - Flow definition and control
 
+### LangSmith
+
+LangSmith and LangChain are complementary tools from the same ecosystem, developed by the LangChain team. While LangChain focuses on building LLM applications, LangSmith enhances development and maintenance by providing observability and testing capabilities. LangSmith integrates seamlessly with LangChain, automatically logging traces and formatting data when used together, but it’s also standalone—developers can use it with any LLM application, regardless of whether LangChain is involved. LangChain is the construction toolkit and LangSmith is the diagnostic and quality control system.
+
 ### Implied Architecture
 
 LangChain is designed to run heavily on the backend.
