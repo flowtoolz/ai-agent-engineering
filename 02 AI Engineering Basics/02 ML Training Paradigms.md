@@ -134,7 +134,7 @@ While RLHF is technically a subset of RL, it incorporates SL-like elements to ma
 - model distillation: the new model (student) learns from the outputs or knowledge of the existing model (teacher), leveraging its learned patterns without starting from scratch
 - Fine-tuning: adapting pretrained models
 - qualitative learning feedback: Preference Learning, Direct Assessment, Reward Modeling
-
+- multi-task learning (MTL): Multi-task learning (MTL) is training one model to perform multiple related tasks simultaneously, sharing knowledge across them to improve efficiency and performance. As a user, you’d mostly notice a multi-task learning (MTL) model feeling "smarter" because it can handle multiple things at once.
 
 ## Conclusion
 
