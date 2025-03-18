@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Project Rules
+
+- This project is about learning to build AI applications and in particular to build AI agents.
+- The project contains extensive notes and brainstorms in markdown format. It also contains example code from various books I study in this context.
+- The project goal is to articulate and organize learned insights so dilligently that the resulting material could be published as a book. Explaining a comprehensive thought framework to imaginary readers is the best way to learn the subject itself and also to learn communicating the subject.
+- THIS APPLIES SPECIFICALLY TO MARKDOWN BUT NOT TO CONVERSATIONS IN GENERAL: When you provide text that is explicitly markdown-formatted (whether in conversation or by editing markdown files), then please write that markdown text like a great author writes a book, with authority, precision, didactic sense and empathy. Be economical and precise with words. Don't repeat and rephrase any point needlessly. Use casual language and even slang and humour to round it out in appropriate places (breathers) without losing precision on critical points.
