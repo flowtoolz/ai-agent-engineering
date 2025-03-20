@@ -2,13 +2,13 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Load model and tokenizer
 model = AutoModelForCausalLM.from_pretrained(
-    "microsoft/Phi-3-mini-4k-instruct",
+    "microsoft/Phi-4-mini-instruct",
     device_map="mps",
     torch_dtype="auto",
     trust_remote_code=True,
 )
 
-tokenizer = AutoTokenizer.from_pretrained("microsoft/Phi-3-mini-4k-instruct")
+tokenizer = AutoTokenizer.from_pretrained("microsoft/Phi-4-mini-instruct")
 
 from transformers import pipeline
 
