@@ -30,5 +30,3 @@ messages = [
 # Generate output
 output = generator(messages)
 print(output[0]["generated_text"])
-
-# TODO: create virtual environment for the project and install transformers dependencies there with the transformers version fixed: pip3 install transformers==4.41.2 accelerate torch
