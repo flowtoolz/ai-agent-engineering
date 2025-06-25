@@ -1,4 +1,5 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import pipeline
 
 # Load model and tokenizer
 model = AutoModelForCausalLM.from_pretrained(
@@ -10,10 +11,8 @@ model = AutoModelForCausalLM.from_pretrained(
 
 tokenizer = AutoTokenizer.from_pretrained("microsoft/Phi-4-mini-instruct")
 
-from transformers import pipeline
-
 # Create a pipeline
-generator = pipeline(
+text_generator = pipeline(
     "text-generation",
     model=model,
     tokenizer=tokenizer,
@@ -28,5 +27,5 @@ messages = [
 ]
 
 # Generate output
-output = generator(messages)
+output = text_generator(messages)
 print(output[0]["generated_text"])
